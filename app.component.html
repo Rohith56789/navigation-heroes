@@ -1,0 +1,15 @@
+
+<h1> {{ title }}</h1>
+<!-- if this is removed creating a feature component  -->
+<!-- <app-heroes></app-heroes> -->
+<!-- remove so that displaying of list is available -->
+<!-- <app-hero-detail [hero]="selectedHero"></app-hero-detail>  -->
+
+<nav>
+    <a routerLink="/dashboard">Dashboard</a>
+    <a routerLink="/heroes">Heroes</a>
+</nav>
+<!-- add a service -->
+
+<router-outlet></router-outlet>
+<app-messages></app-messages>
